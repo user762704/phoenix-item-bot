@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN="8234677949:AAGvVZSTXSFnQx_vt8YTxEEtIhhvRDDuRlY"
+TOKEN="8234677949:AAEKeSHY85dOQbUHpwvfbOpez05yE5h1KQM"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🔥 Phoenix Item Shop Bot မှ ကြိုဆိုပါတယ်")
