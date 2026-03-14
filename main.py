@@ -804,7 +804,6 @@ async def handle_admin_button(update: Update, context: ContextTypes.DEFAULT_TYPE
         )
         return
 
-
 async def handle_buy_again(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     query = update.callback_query
     await query.answer()
