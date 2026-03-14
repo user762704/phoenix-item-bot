@@ -773,7 +773,7 @@ async def handle_admin_button(update: Update, context: ContextTypes.DEFAULT_TYPE
         await query.edit_message_caption(
             caption=format_admin_caption(order),
             parse_mode="Markdown",
-            reply_markup=admin_order_inline(order_id),
+            reply_markup=None,
         )
 
         await context.bot.send_message(
