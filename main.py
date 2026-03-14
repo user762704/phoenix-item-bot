@@ -838,7 +838,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
                     message_id=order["admin_message_id"],
                     caption=format_admin_caption(order),
                     parse_mode="Markdown",
-                    reply_markup=admin_order_inline(waiting_order_id),
+                    reply_markup=None,
                 )
             except Exception as e:
                 logger.warning("Failed editing caption: %s", e)
