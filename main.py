@@ -422,7 +422,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def contact_admin(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
-        f"📞 *Admin ကိုဆက်သွယ်ရန်*\n\n👉 {ADMIN_USERNAME}",
+       f"📞Admin ကိုဆက်သွယ်ရန်\n\n👉 {ADMIN_USERNAME}",
         parse_mode="Markdown",
     )
 
