@@ -4,6 +4,7 @@ import os
 import re
 from copy import deepcopy
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from typing import Any
 
 from telegram import (
@@ -27,7 +28,7 @@ from telegram.ext import (
 # CONFIG
 # =========================================================
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "BOT_TOKEN")
-BOTMIN_USERNAME = "@phoenixi762"
+ADMIN_USERNAME = "@phoenixi762"
 ADMIN_GROUP_ID = -1003617199232
 ADMIN_USER_ID = 6499351439  # admin telegram user id
 
@@ -305,7 +306,7 @@ def get_flow_value(context: ContextTypes.DEFAULT_TYPE, key: str, default: Any = 
 
 
 def current_time_str() -> str:
-    return datetime.now().strftime(TIME_FORMAT)
+    return datetime.now(ZoneInfo("Asia/Yangon")).strftime(TIME_FORMAT)
 
 
 def buyer_display_name(user) -> str:
