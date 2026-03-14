@@ -26,9 +26,8 @@ from telegram.ext import (
 # =========================================================
 # CONFIG
 # =========================================================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-
-ADMIN_USERNAME = "@phoenixi762"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "BOT_TOKEN")
+BOTMIN_USERNAME = "@phoenixi762"
 ADMIN_GROUP_ID = -1003617199232
 ADMIN_USER_ID = 6499351439  # admin telegram user id
 
