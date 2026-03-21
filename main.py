@@ -28,15 +28,15 @@ from telegram.ext import (
 # CONFIG
 # =========================================================
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "BOT_TOKEN")
-ADMIN_USERNAME = "@phoenixi762"
+ADMIN_USERNAME = "@phoenixi7"
 ADMIN_GROUP_ID = -1003617199232
 ADMIN_USER_ID = 6499351439  # admin telegram user id
 
-KBZPAY_NAME = "Aung Chit Myo"
-KBZPAY_PHONE = "09762704762"
+KBZPAY_NAME = "Admin သို့ဆက်သွယ်ပါ"
+KBZPAY_PHONE = "----"
 
-WAVEPAY_NAME = "Aung Chit Myo"
-WAVEPAY_PHONE = "09762704762"
+WAVEPAY_NAME = "Admin သို့ဆက်သွယ်ပါ"
+WAVEPAY_PHONE = "----"
 
 ORDERS_FILE = "orders.json"
 PRICES_FILE = "prices.json"
